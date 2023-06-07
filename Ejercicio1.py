@@ -25,7 +25,8 @@ print(df.tail(5))
 #Mostramos una muestra aleatoria de 5 filas
 print(df.sample(5))
 
-#Renombramos las columnas
+#Renombramos las columnas a terminos equivalentes en español segun nuestro criterio
+#df.columns = ['Id_Pasajero', 'Sobrevivio', 'Clase', 'Nombre', 'Sexo', 'Edad', 'Hermanos_Esposos', 'Padres_Hijos', 'Ticket', 'Tarifa', 'Cabina', 'Embarque']
 
 
 #Verificamos los tipos de datos de todas las columnas
