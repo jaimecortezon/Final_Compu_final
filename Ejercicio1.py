@@ -27,7 +27,7 @@ print(df.sample(5))
 
 #Renombramos las columnas a terminos equivalentes en español segun nuestro criterio
 #df.columns = ['Id_Pasajero', 'Sobrevivio', 'Clase', 'Nombre', 'Sexo', 'Edad', 'Hermanos_Esposos', 'Padres_Hijos', 'Ticket', 'Tarifa', 'Cabina', 'Embarque']
-
+#He comentado lo de arriba porque si no me da error el resto del codigo
 
 #Verificamos los tipos de datos de todas las columnas
 print(df.dtypes)
